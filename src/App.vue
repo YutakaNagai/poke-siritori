@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { NAME } from "./util/const";
 
 // リアクティブな状態
 const inputMsg = ref("");
@@ -14,28 +15,11 @@ const submitMsg = () => {
   // チェック処理
   if (validateMsg()) {
     // 敗北判定
-    // 「ん」で終わっていたら敗北
-    const lastChar = inputMsg.value.slice(-1);
-    if (lastChar === "ん" || lastChar === "ン") {
-      loseMsgList.value.push(`「${lastChar}」 で終わってしまった`);
-    }
+    chkLose();
 
-    // 同じ単語が出てきたら敗北
-    if (history.value.includes(inputMsg.value)) {
-      loseMsgList.value.push(`「${inputMsg.value}」 は既に使用済み`);
-    }
-
-    // 前の単語と繋がっていなかったら敗北
-    if (history.value.length > 0) {
-      const lastWordLastChar = history.value.slice(-1)[0].substr(-1);
-      const currentWordFirstChar = inputMsg.value[0];
-      if (kanaToHira(lastWordLastChar) !== kanaToHira(currentWordFirstChar)) {
-        loseMsgList.value.push(`前回の単語の末尾は 「${lastWordLastChar}」`);
-      }
-    }
-
-    // 問題なければ履歴にpush
+    // 履歴にpush
     history.value.push(inputMsg.value);
+
     // テキストボックスの初期化
     inputMsg.value = "";
   }
@@ -64,6 +48,33 @@ const validateMsg = () => {
     return false;
   } else {
     return true;
+  }
+};
+
+const chkLose = () => {
+  // 「ん」で終わっていたら敗北
+  const lastChar = inputMsg.value.slice(-1);
+  if (lastChar === "ん" || lastChar === "ン") {
+    loseMsgList.value.push(`「${lastChar}」 で終わってしまった`);
+  }
+
+  // 同じ単語が出てきたら敗北
+  if (history.value.includes(inputMsg.value)) {
+    loseMsgList.value.push(`「${inputMsg.value}」 は既に使用済み`);
+  }
+
+  // 前の単語と繋がっていなかったら敗北
+  if (history.value.length > 0) {
+    const lastWordLastChar = history.value.slice(-1)[0].substr(-1);
+    const currentWordFirstChar = inputMsg.value[0];
+    if (kanaToHira(lastWordLastChar) !== kanaToHira(currentWordFirstChar)) {
+      loseMsgList.value.push(`前回の単語の末尾は 「${lastWordLastChar}」`);
+    }
+  }
+
+  // 存在しないポケモンの場合敗北
+  if (!NAME.includes(inputMsg.value)) {
+    loseMsgList.value.push(`「${inputMsg.value}」 は存在しないポケモンです`);
   }
 };
 </script>
