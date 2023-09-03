@@ -7,6 +7,7 @@ const inputMsg = ref("");
 const history = ref([]);
 const loseMsgList = ref([]);
 const errorMsgList = ref([]);
+const nextStartStr = ref([]);
 
 const submitMsg = () => {
   // エラーメッセージの初期化
@@ -16,6 +17,18 @@ const submitMsg = () => {
   if (validateMsg()) {
     // 敗北判定
     chkLose();
+
+    // 開始文字の初期化
+    nextStartStr.value = [];
+
+    // 特殊単語時の判定
+    // 長音で終わっていた場合
+    if (inputMsg.value.slice(-1) === "ー") {
+      nextStartStr.value.push(inputMsg.value.slice(-2, -1));
+    } else {
+      nextStartStr.value.push(inputMsg.value.slice(-1));
+    }
+    // TODO: 小文字、複数文字、それらの設定
 
     // 履歴にpush
     history.value.push(inputMsg.value);
@@ -65,10 +78,12 @@ const chkLose = () => {
 
   // 前の単語と繋がっていなかったら敗北
   if (history.value.length > 0) {
-    const lastWordLastChar = history.value.slice(-1)[0].substr(-1);
     const currentWordFirstChar = inputMsg.value[0];
-    if (kanaToHira(lastWordLastChar) !== kanaToHira(currentWordFirstChar)) {
-      loseMsgList.value.push(`前回の単語の末尾は 「${lastWordLastChar}」`);
+    if (
+      kanaToHira(nextStartStr.value.join(",")) !==
+      kanaToHira(currentWordFirstChar)
+    ) {
+      loseMsgList.value.push(`前回の単語の末尾は 「${nextStartStr.value}」`);
     }
   }
 
@@ -92,6 +107,7 @@ const chkLose = () => {
         v-model="inputMsg"
         required
         pattern="[\u30A1-\u30FC]*"
+        @keypress.enter="submitMsg"
       />
       <button @click="submitMsg">送信</button>
 
