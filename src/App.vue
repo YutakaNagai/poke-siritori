@@ -14,6 +14,7 @@ import Settings from "./components/Settings.vue";
 const inputMsg = ref("");
 const history = ref([]);
 const loseMsgList = ref([]);
+const winMsgList = ref([]);
 const errorMsgList = ref([]);
 const nextStartStr = ref("");
 const config = ref({
@@ -35,8 +36,8 @@ const submitMsg = () => {
 
   // チェック処理
   if (validateMsg()) {
-    // 敗北判定
-    chkLose();
+    // 勝敗判定
+    chkWord();
 
     // 特殊単語時の判定
     // 後ろから２文字目
@@ -47,7 +48,7 @@ const submitMsg = () => {
         // 後ろから2文字目が拗音だった場合
         if (config.value.contractedTarget === "secondlast") {
           // 後ろから3文字目を開始文字として設定
-          nextStartStr.value = inputMsg.value.slice(-3, -1);
+          nextStartStr.value = inputMsg.value.slice(-3, -2);
         } else if (config.value.contractedTarget === "last") {
           // 末尾の文字を大文字にして開始文字として設定
           nextStartStr.value = YOUON_CHAR_SET.find(
@@ -77,6 +78,24 @@ const submitMsg = () => {
     } else {
       nextStartStr.value = inputMsg.value.slice(-1);
     }
+
+    // 返せる単語がなかったら勝利
+    let candidate = null;
+    if (history.value.length > 0) {
+      candidate = NAME.find(
+        (word) =>
+          !history.value.includes(word) &&
+          !word.endsWith("ン") &&
+          word.startsWith(nextStartStr.value)
+      );
+    } else {
+      candidate = NAME.find(
+        (word) => !word.endsWith("ン") && word.startsWith(nextStartStr.value)
+      );
+    }
+    if (!candidate) {
+      winMsgList.value.push(`「${nextStartStr.value}」 で返せる単語がない`);
+    }
     // TODO: 複数文字、それらの設定
 
     // 履歴にpush
@@ -90,6 +109,7 @@ const submitMsg = () => {
 const retryGame = () => {
   history.value = [];
   loseMsgList.value = [];
+  winMsgList.value = [];
   if (config.value.firstChar === "random") {
     nextStartStr.value =
       FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
@@ -126,7 +146,7 @@ const validateMsg = () => {
   }
 };
 
-const chkLose = () => {
+const chkWord = () => {
   // 「ん」で終わっていたら敗北
   const lastChar = inputMsg.value.slice(-1);
   if (lastChar === "ん" || lastChar === "ン") {
@@ -241,7 +261,7 @@ const createConfig = (newConfig) => {
   <Settings :config="config" @create-config="createConfig" />
   <h1>ポケしりとり</h1>
   <div>
-    <template v-if="loseMsgList.length === 0">
+    <template v-if="loseMsgList.length === 0 && winMsgList.length === 0">
       <h2>そこに　１つ　テキストボックスが　ある　じゃろう！</h2>
       <div v-if="!!nextStartStr">最初の文字: {{ nextStartStr }}</div>
       <template v-if="history.length > 0 && loseMsgList.length === 0">
@@ -268,6 +288,15 @@ const createConfig = (newConfig) => {
       <h2>めのまえが　まっくらに　なった！</h2>
       <template v-for="(loseMsg, index) in loseMsgList" :key="index">
         <h3>敗因{{ index + 1 }}: {{ loseMsg }}</h3>
+      </template>
+      <button @click="retryGame">リトライ</button>
+    </div>
+
+    <!-- 勝利時処理 -->
+    <div v-else-if="winMsgList.length !== 0">
+      <h2>こうかは　ばつぐんだ！</h2>
+      <template v-for="(winMsg, index) in winMsgList" :key="index">
+        <h3>勝因{{ index + 1 }}: {{ winMsg }}</h3>
       </template>
       <button @click="retryGame">リトライ</button>
     </div>
