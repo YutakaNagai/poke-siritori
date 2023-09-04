@@ -1,6 +1,7 @@
 <script setup>
 import { onMounted, ref } from "vue";
 import { NAME, FIRST_CHAR_ALLOW } from "./util/const";
+import Settings from "./components/Settings.vue";
 
 // リアクティブな状態
 const inputMsg = ref("");
@@ -104,6 +105,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <Settings />
   <h1>ポケしりとり</h1>
   <div>
     <template v-if="loseMsgList.length === 0">
