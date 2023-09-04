@@ -75,6 +75,32 @@ const updateConfig = () => {
           </p>
         </div>
       </div>
+
+      <div>
+        <div class="title">拗音</div>
+        <div v-if="props.config.contractedTarget === 'secondlast'">
+          <button @click="setConfig('contractedTarget', 'last')">
+            拗音の前の文字
+          </button>
+          <p>拗音の前の文字を次の開始文字として指定します。</p>
+          <p>ガーディ → 「デ」からはじまる単語</p>
+        </div>
+        <div v-else-if="props.config.contractedTarget === 'last'">
+          <button @click="setConfig('contractedTarget', 'contracted')">
+            拗音
+          </button>
+          <p>大文字に変換後の拗音を次の開始文字として指定します。</p>
+          <p>ガーディ → 「イ」からはじまる単語</p>
+        </div>
+        <div v-else>
+          <button @click="setConfig('contractedTarget', 'secondlast')">
+            拗音の前始まり
+          </button>
+          <p>拗音の前の文字以降を次の開始文字として指定します。</p>
+          <p>ガーディ → 「ディ」からはじまる単語</p>
+        </div>
+        {{ props.config.contractedTarget }}
+      </div>
     </div>
     <button @click="updateConfig">設定して新規ゲームを開始</button>
   </div>

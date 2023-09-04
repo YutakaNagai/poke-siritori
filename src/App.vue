@@ -5,6 +5,8 @@ import {
   FIRST_CHAR_ALLOW,
   DAKUTEN_CHAR_SET,
   DAKUTEN_HANDAKUTEN_CHAR_SET,
+  FIRST_CHAR_ADDITION_ALLOW,
+  YOUON_CHAR_SET,
 } from "./util/const";
 import Settings from "./components/Settings.vue";
 
@@ -18,8 +20,14 @@ const config = ref({
   // ゲーム開始時の文字を指定するか none/random
   firstChar: "none",
   // 濁点/半濁点を許可するか false/true
-  ignoreMark: "false",
+  ignoreMark: false,
+  // 末尾が拗音の場合、どの文字を開始文字とするか secondlast/last/contracted
+  contractedTarget: "secondlast",
 });
+
+const contractedList = [
+  ...new Set(FIRST_CHAR_ADDITION_ALLOW.map((str) => str.slice(-1))),
+];
 
 const submitMsg = () => {
   // エラーメッセージの初期化
@@ -31,13 +39,29 @@ const submitMsg = () => {
     chkLose();
 
     // 特殊単語時の判定
-    // 長音で終わっていた場合
+    // 後ろから２文字目
+    const secondFromLastChar = inputMsg.value.slice(-2, -1);
     if (inputMsg.value.slice(-1) === "ー") {
-      nextStartStr.value = inputMsg.value.slice(-2, -1);
+      // 長音で終わっていた場合
+      nextStartStr.value = secondFromLastChar;
+    } else if (contractedList.includes(inputMsg.value.slice(-1))) {
+      // 拗音で終わっていた場合
+      if (config.value.contractedTarget === "secondlast") {
+        // 後ろから２文字目を開始文字として設定
+        nextStartStr.value = secondFromLastChar;
+      } else if (config.value.contractedTarget === "last") {
+        // 末尾の文字を大文字にして開始文字として設定
+        nextStartStr.value = YOUON_CHAR_SET.find(
+          (charset) => inputMsg.value.slice(-1) === charset[0]
+        )[1];
+      } else {
+        // 後ろ2文字を開始文字として設定
+        nextStartStr.value = inputMsg.value.slice(-2);
+      }
     } else {
       nextStartStr.value = inputMsg.value.slice(-1);
     }
-    // TODO: 小文字、複数文字、それらの設定
+    // TODO: 複数文字、それらの設定
 
     // 履歴にpush
     history.value.push(inputMsg.value);
@@ -99,7 +123,13 @@ const chkLose = () => {
   }
 
   const KanaPrevLast = hiraToKana(nextStartStr.value);
-  const KanaCurrentFirst = hiraToKana(inputMsg.value[0]);
+  let KanaCurrentFirst = "";
+  if (config.value.contractedTarget === "contracted") {
+    // 末尾2文字を入力単語の先頭文字として設定
+    KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 2));
+  } else {
+    KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 1));
+  }
 
   // 各判定で敗北したかどうか判別するためのフラグ
   let isMarkSafe = false;
