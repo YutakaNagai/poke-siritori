@@ -5,10 +5,10 @@ const props = defineProps({
   config: Object,
 });
 const emit = defineEmits(["create-config"]);
-const isOpen = ref(false);
+const isOpenMenu = ref(false);
 
 const closeMenu = () => {
-  isOpen.value = false;
+  isOpenMenu.value = false;
 };
 
 const setConfig = (key, val) => {
@@ -16,36 +16,63 @@ const setConfig = (key, val) => {
 };
 
 const updateConfig = () => {
-  isOpen.value = false;
+  isOpenMenu.value = false;
   emit("create-config", props.config);
 };
 </script>
 
 <template>
-  <div class="menu-btn" @click="isOpen = !isOpen">
+  <div class="menu-btn" @click="isOpenMenu = !isOpenMenu">
     <i class="fa fa-bars" aria-hidden="true"></i>
     <hr />
     <hr />
     <hr />
   </div>
-  <div class="menu" v-bind:class="{ 'is-active': isOpen }">
+  <div class="menu" v-bind:class="{ 'is-active': isOpenMenu }">
     <div class="menu__item">
       <h2>Config</h2>
+
       <div>
-        <p>最初の文字</p>
+        <div class="title">最初の文字</div>
         <div>
           <button
-            :class="{ 'button-active': props.config.firstChar === 'none' }"
-            @click="setConfig('firstChar', 'none')"
+            @click="
+              setConfig(
+                'firstChar',
+                props.config.firstChar === 'none' ? 'random' : 'none'
+              )
+            "
           >
-            指定なし
+            {{ props.config.firstChar === "none" ? "指定なし" : "ランダム" }}
           </button>
-          <button
-            :class="{ 'button-active': props.config.firstChar === 'random' }"
-            @click="setConfig('firstChar', 'random')"
-          >
-            ランダム
+          <p>ゲーム開始時にランダムで文字が指定されます。</p>
+        </div>
+      </div>
+
+      <div>
+        <div class="title">濁点/半濁点</div>
+        <div>
+          <button @click="setConfig('ignoreMark', !props.config.ignoreMark)">
+            {{
+              props.config.ignoreMark
+                ? "同じ文字として扱う"
+                : "違う文字として扱う"
+            }}
           </button>
+          <p>
+            {{
+              props.config.ignoreMark
+                ? "半濁点のついた文字とそうでない文字を同じ文字として扱います。"
+                : "濁点/半濁点のついた文字とそうでない文字を違う文字として扱います。"
+            }}
+          </p>
+          <p>
+            {{
+              props.config.ignoreMark
+                ? "○ サンド → トドグラー"
+                : "× サンド → トドグラー"
+            }}
+          </p>
         </div>
       </div>
     </div>
@@ -109,6 +136,9 @@ const updateConfig = () => {
   transform: translateX(0);
 }
 
+.title {
+  background: rgb(161, 158, 125);
+}
 .button-active {
   background: rgb(150, 218, 255);
 }

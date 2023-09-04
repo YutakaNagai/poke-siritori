@@ -1,6 +1,11 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import { NAME, FIRST_CHAR_ALLOW } from "./util/const";
+import {
+  NAME,
+  FIRST_CHAR_ALLOW,
+  DAKUTEN_CHAR_SET,
+  DAKUTEN_HANDAKUTEN_CHAR_SET,
+} from "./util/const";
 import Settings from "./components/Settings.vue";
 
 // リアクティブな状態
@@ -10,7 +15,10 @@ const loseMsgList = ref([]);
 const errorMsgList = ref([]);
 const nextStartStr = ref("");
 const config = ref({
+  // ゲーム開始時の文字を指定するか none/random
   firstChar: "none",
+  // 濁点/半濁点を許可するか false/true
+  ignoreMark: "false",
 });
 
 const submitMsg = () => {
@@ -50,8 +58,15 @@ const retryGame = () => {
   }
 };
 
+const hiraToKana = (str) => {
+  return str.replace(/[\u3041-\u3096]/g, function (match) {
+    var chr = match.charCodeAt(0) + 0x60;
+    return String.fromCharCode(chr);
+  });
+};
+
 const kanaToHira = (str) => {
-  return str.replace(/[\u30a1-\u30f6]/g, (match) => {
+  return str.replace(/[\u30a1-\u30f6]/g, function (match) {
     var chr = match.charCodeAt(0) - 0x60;
     return String.fromCharCode(chr);
   });
@@ -83,16 +98,69 @@ const chkLose = () => {
     loseMsgList.value.push(`「${inputMsg.value}」 は既に使用済み`);
   }
 
-  // 前の単語と繋がっていなかったら敗北
+  const KanaPrevLast = hiraToKana(nextStartStr.value);
+  const KanaCurrentFirst = hiraToKana(inputMsg.value[0]);
+
+  // 各判定で敗北したかどうか判別するためのフラグ
+  let isMarkSafe = false;
+
+  // 前の単語と繋がっているか判定
   if (!!nextStartStr.value) {
-    const currentWordFirstChar = inputMsg.value[0];
-    if (kanaToHira(nextStartStr.value) !== kanaToHira(currentWordFirstChar)) {
+    // configごとの設定
+    if (config.value.ignoreMark) {
+      // 濁点
+      for (const charset of DAKUTEN_CHAR_SET) {
+        if (KanaPrevLast === charset[0] || KanaPrevLast === charset[1]) {
+          if (
+            KanaCurrentFirst === charset[0] ||
+            KanaCurrentFirst === charset[1]
+          ) {
+            isMarkSafe = true;
+            break;
+          } else if (KanaPrevLast !== KanaCurrentFirst) {
+            // 前の単語と繋がっていなかったら敗北
+            loseMsgList.value.push(
+              `前回の単語の末尾は 「${nextStartStr.value}」`
+            );
+          }
+        }
+      }
+      if (!isMarkSafe) {
+        // 濁点/半濁点
+        for (const charset of DAKUTEN_HANDAKUTEN_CHAR_SET) {
+          if (
+            KanaPrevLast === charset[0] ||
+            KanaPrevLast === charset[1] ||
+            KanaPrevLast === charset[2]
+          ) {
+            if (
+              KanaCurrentFirst === charset[0] ||
+              KanaCurrentFirst === charset[1] ||
+              KanaCurrentFirst === charset[2]
+            ) {
+              isMarkSafe = true;
+              break;
+            } else if (KanaPrevLast !== KanaCurrentFirst) {
+              // 前の単語と繋がっていなかったら敗北
+              loseMsgList.value.push(
+                `前回の単語の末尾は 「${nextStartStr.value}」`
+              );
+            }
+          }
+        }
+      }
+      if (!isMarkSafe && KanaPrevLast !== KanaCurrentFirst) {
+        // 前の単語と繋がっていなかったら敗北
+        loseMsgList.value.push(`前回の単語の末尾は 「${nextStartStr.value}」`);
+      }
+    } else if (KanaPrevLast !== KanaCurrentFirst) {
+      // 前の単語と繋がっていなかったら敗北
       loseMsgList.value.push(`前回の単語の末尾は 「${nextStartStr.value}」`);
     }
   }
 
   // 存在しないポケモンの場合敗北
-  if (!NAME.includes(inputMsg.value)) {
+  if (!NAME.includes(hiraToKana(inputMsg.value))) {
     loseMsgList.value.push(`「${inputMsg.value}」 は存在しないポケモンです`);
   }
 };
