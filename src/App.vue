@@ -1,13 +1,13 @@
 <script setup>
-import { ref } from "vue";
-import { NAME } from "./util/const";
+import { onMounted, ref } from "vue";
+import { NAME, FIRST_CHAR_ALLOW } from "./util/const";
 
 // リアクティブな状態
 const inputMsg = ref("");
 const history = ref([]);
 const loseMsgList = ref([]);
 const errorMsgList = ref([]);
-const nextStartStr = ref([]);
+const nextStartStr = ref("");
 
 const submitMsg = () => {
   // エラーメッセージの初期化
@@ -18,15 +18,12 @@ const submitMsg = () => {
     // 敗北判定
     chkLose();
 
-    // 開始文字の初期化
-    nextStartStr.value = [];
-
     // 特殊単語時の判定
     // 長音で終わっていた場合
     if (inputMsg.value.slice(-1) === "ー") {
-      nextStartStr.value.push(inputMsg.value.slice(-2, -1));
+      nextStartStr.value = inputMsg.value.slice(-2, -1);
     } else {
-      nextStartStr.value.push(inputMsg.value.slice(-1));
+      nextStartStr.value = inputMsg.value.slice(-1);
     }
     // TODO: 小文字、複数文字、それらの設定
 
@@ -77,12 +74,9 @@ const chkLose = () => {
   }
 
   // 前の単語と繋がっていなかったら敗北
-  if (history.value.length > 0) {
+  if (!!nextStartStr) {
     const currentWordFirstChar = inputMsg.value[0];
-    if (
-      kanaToHira(nextStartStr.value.join(",")) !==
-      kanaToHira(currentWordFirstChar)
-    ) {
+    if (kanaToHira(nextStartStr.value) !== kanaToHira(currentWordFirstChar)) {
       loseMsgList.value.push(`前回の単語の末尾は 「${nextStartStr.value}」`);
     }
   }
@@ -101,6 +95,12 @@ const surrender = () => {
 
   loseMsgList.value.push("降参しました");
 };
+
+onMounted(() => {
+  // 開始文字の初期化（ランダム取得）
+  nextStartStr.value =
+    FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
+});
 </script>
 
 <template>
@@ -108,7 +108,7 @@ const surrender = () => {
   <div>
     <template v-if="loseMsgList.length === 0">
       <h2>そこに　１つ　テキストボックスが　ある　じゃろう！</h2>
-
+      <div v-if="history.length === 0">最初の文字: {{ nextStartStr }}</div>
       <template v-if="history.length > 0 && loseMsgList.length === 0">
         <p>前回捕まえたポケモン: {{ history.slice(-1)[0] }}</p>
         <button @click="surrender">にげる</button>
