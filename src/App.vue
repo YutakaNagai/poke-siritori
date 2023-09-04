@@ -92,6 +92,15 @@ const chkLose = () => {
     loseMsgList.value.push(`「${inputMsg.value}」 は存在しないポケモンです`);
   }
 };
+
+const surrender = () => {
+  // エラーメッセージの初期化
+  errorMsgList.value = [];
+  // テキストボックスの初期化
+  inputMsg.value = "";
+
+  loseMsgList.value.push("降参しました");
+};
 </script>
 
 <template>
@@ -99,9 +108,12 @@ const chkLose = () => {
   <div>
     <template v-if="loseMsgList.length === 0">
       <h2>そこに　１つ　テキストボックスが　ある　じゃろう！</h2>
-      <p v-if="history.length > 0">
-        前回捕まえたポケモン: {{ history.slice(-1)[0] }}
-      </p>
+
+      <template v-if="history.length > 0 && loseMsgList.length === 0">
+        <p>前回捕まえたポケモン: {{ history.slice(-1)[0] }}</p>
+        <button @click="surrender">にげる</button>
+      </template>
+
       <input
         type="text"
         v-model="inputMsg"
