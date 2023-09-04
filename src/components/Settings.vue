@@ -84,6 +84,7 @@ const updateConfig = () => {
           </button>
           <p>拗音の前の文字を次の開始文字として指定します。</p>
           <p>ガーディ → 「デ」からはじまる単語</p>
+          <p>ハクリュー → 「リ」からはじまる単語</p>
         </div>
         <div v-else-if="props.config.contractedTarget === 'last'">
           <button @click="setConfig('contractedTarget', 'contracted')">
@@ -91,6 +92,7 @@ const updateConfig = () => {
           </button>
           <p>大文字に変換後の拗音を次の開始文字として指定します。</p>
           <p>ガーディ → 「イ」からはじまる単語</p>
+          <p>ハクリュー → 「ユ」からはじまる単語</p>
         </div>
         <div v-else>
           <button @click="setConfig('contractedTarget', 'secondlast')">
@@ -98,6 +100,7 @@ const updateConfig = () => {
           </button>
           <p>拗音の前の文字以降を次の開始文字として指定します。</p>
           <p>ガーディ → 「ディ」からはじまる単語</p>
+          <p>ハクリュー → 「リュー」からはじまる単語</p>
         </div>
         {{ props.config.contractedTarget }}
       </div>

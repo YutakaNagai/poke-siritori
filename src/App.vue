@@ -43,11 +43,27 @@ const submitMsg = () => {
     const secondFromLastChar = inputMsg.value.slice(-2, -1);
     if (inputMsg.value.slice(-1) === "ー") {
       // 長音で終わっていた場合
-      nextStartStr.value = secondFromLastChar;
+      if (contractedList.includes(secondFromLastChar)) {
+        // 後ろから2文字目が拗音だった場合
+        if (config.value.contractedTarget === "secondlast") {
+          // 後ろから3文字目を開始文字として設定
+          nextStartStr.value = inputMsg.value.slice(-3, -1);
+        } else if (config.value.contractedTarget === "last") {
+          // 末尾の文字を大文字にして開始文字として設定
+          nextStartStr.value = YOUON_CHAR_SET.find(
+            (charset) => secondFromLastChar === charset[0]
+          )[1];
+        } else {
+          // 後ろ3文字を開始文字として設定
+          nextStartStr.value = inputMsg.value.slice(-3);
+        }
+      } else {
+        nextStartStr.value = secondFromLastChar;
+      }
     } else if (contractedList.includes(inputMsg.value.slice(-1))) {
       // 拗音で終わっていた場合
       if (config.value.contractedTarget === "secondlast") {
-        // 後ろから２文字目を開始文字として設定
+        // 後ろから2文字目を開始文字として設定
         nextStartStr.value = secondFromLastChar;
       } else if (config.value.contractedTarget === "last") {
         // 末尾の文字を大文字にして開始文字として設定
@@ -125,8 +141,13 @@ const chkLose = () => {
   const KanaPrevLast = hiraToKana(nextStartStr.value);
   let KanaCurrentFirst = "";
   if (config.value.contractedTarget === "contracted") {
-    // 末尾2文字を入力単語の先頭文字として設定
-    KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 2));
+    if (nextStartStr.value.slice(0, 1) === "ー") {
+      // 末尾3文字を入力単語の先頭文字として設定
+      KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 3));
+    } else {
+      // 末尾2文字を入力単語の先頭文字として設定
+      KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 2));
+    }
   } else {
     KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 1));
   }
