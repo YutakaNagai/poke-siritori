@@ -9,6 +9,9 @@ const history = ref([]);
 const loseMsgList = ref([]);
 const errorMsgList = ref([]);
 const nextStartStr = ref("");
+const config = ref({
+  firstChar: "none",
+});
 
 const submitMsg = () => {
   // エラーメッセージの初期化
@@ -39,6 +42,12 @@ const submitMsg = () => {
 const retryGame = () => {
   history.value = [];
   loseMsgList.value = [];
+  if (config.value.firstChar === "random") {
+    nextStartStr.value =
+      FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
+  } else {
+    nextStartStr.value = "";
+  }
 };
 
 const kanaToHira = (str) => {
@@ -75,7 +84,7 @@ const chkLose = () => {
   }
 
   // 前の単語と繋がっていなかったら敗北
-  if (!!nextStartStr) {
+  if (!!nextStartStr.value) {
     const currentWordFirstChar = inputMsg.value[0];
     if (kanaToHira(nextStartStr.value) !== kanaToHira(currentWordFirstChar)) {
       loseMsgList.value.push(`前回の単語の末尾は 「${nextStartStr.value}」`);
@@ -97,20 +106,25 @@ const surrender = () => {
   loseMsgList.value.push("降参しました");
 };
 
-onMounted(() => {
-  // 開始文字の初期化（ランダム取得）
-  nextStartStr.value =
-    FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
-});
+const createConfig = (newConfig) => {
+  config.value = newConfig;
+  retryGame();
+};
+
+// onMounted(() => {
+//   // 開始文字の初期化（ランダム取得）
+//   nextStartStr.value =
+//     FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
+// });
 </script>
 
 <template>
-  <Settings />
+  <Settings :config="config" @create-config="createConfig" />
   <h1>ポケしりとり</h1>
   <div>
     <template v-if="loseMsgList.length === 0">
       <h2>そこに　１つ　テキストボックスが　ある　じゃろう！</h2>
-      <div v-if="history.length === 0">最初の文字: {{ nextStartStr }}</div>
+      <div v-if="!!nextStartStr">最初の文字: {{ nextStartStr }}</div>
       <template v-if="history.length > 0 && loseMsgList.length === 0">
         <p>前回捕まえたポケモン: {{ history.slice(-1)[0] }}</p>
         <button @click="surrender">にげる</button>

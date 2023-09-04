@@ -1,42 +1,59 @@
 <script setup>
 import { ref } from "vue";
 
-// defineProps({
-//   open: Boolean,
-// });
+const props = defineProps({
+  config: Object,
+});
+const emit = defineEmits(["create-config"]);
 const isOpen = ref(false);
 
 const closeMenu = () => {
   isOpen.value = false;
 };
+
+const setConfig = (key, val) => {
+  props.config[key] = val;
+};
+
+const updateConfig = () => {
+  isOpen.value = false;
+  emit("create-config", props.config);
+};
 </script>
 
 <template>
-  <div class="menu-wrapper" @click.self="closeMenu">
-    <div class="menu-btn" @click="isOpen = !isOpen">
-      <i class="fa fa-bars" aria-hidden="true"></i>
-      <hr />
-      <hr />
-      <hr />
+  <div class="menu-btn" @click="isOpen = !isOpen">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    <hr />
+    <hr />
+    <hr />
+  </div>
+  <div class="menu" v-bind:class="{ 'is-active': isOpen }">
+    <div class="menu__item">
+      <h2>Config</h2>
+      <div>
+        <p>最初の文字</p>
+        <div>
+          <button
+            :class="{ 'button-active': props.config.firstChar === 'none' }"
+            @click="setConfig('firstChar', 'none')"
+          >
+            指定なし
+          </button>
+          <button
+            :class="{ 'button-active': props.config.firstChar === 'random' }"
+            @click="setConfig('firstChar', 'random')"
+          >
+            ランダム
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="menu" v-bind:class="{ 'is-active': isOpen }">
-      <div class="menu__item">TOP</div>
-      <div class="menu__item">ABOUT</div>
-      <div class="menu__item">BLOG</div>
-      <div class="menu__item">CONTACT</div>
-    </div>
+    <button @click="updateConfig">設定して新規ゲームを開始</button>
   </div>
 </template>
 
 <style scoped>
-.menu-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vw;
-  z-index: 1;
-}
 /*----------------------------
 * メニュー開閉ボタン
 *----------------------------*/
@@ -90,5 +107,9 @@ const closeMenu = () => {
 /* アニメーション後のメニューの状態 */
 .menu.is-active {
   transform: translateX(0);
+}
+
+.button-active {
+  background: rgb(150, 218, 255);
 }
 </style>
