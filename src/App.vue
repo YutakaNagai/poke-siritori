@@ -131,11 +131,12 @@ const submitMsg = () => {
     }
 
     if (history.value.length > 0) {
-      candidate = NAME.find((word) => {
-        !history.value.includes(word) &&
+      candidate = NAME.find(
+        (word) =>
+          !history.value.includes(word) &&
           !word.endsWith("ン") &&
-          nextStartStrList.find((str) => word.startsWith(str));
-      });
+          nextStartStrList.find((str) => word.startsWith(str))
+      );
     } else {
       candidate = NAME.find(
         (word) =>
@@ -210,13 +211,7 @@ const chkWord = () => {
   const KanaPrevLast = hiraToKana(nextStartStr.value);
   let KanaCurrentFirst = "";
   if (config.value.contractedTarget === "contracted") {
-    if (nextStartStr.value.slice(0, 1) === "ー") {
-      // 末尾3文字を入力単語の先頭文字として設定
-      KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 3));
-    } else {
-      // 末尾2文字を入力単語の先頭文字として設定
-      KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 2));
-    }
+    KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, KanaPrevLast.length));
   } else {
     KanaCurrentFirst = hiraToKana(inputMsg.value.slice(0, 1));
   }
