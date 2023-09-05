@@ -81,22 +81,69 @@ const submitMsg = () => {
 
     // 返せる単語がなかったら勝利
     let candidate = null;
+    // 濁点/半濁点を静音と同じ文字として扱う場合、charsetを要素として取得する
+    const charSetList = [...nextStartStr.value].map((char) => {
+      if (config.value.ignoreMark) {
+        const dakutenCharSet = DAKUTEN_CHAR_SET.find((markCharSet) => {
+          if (markCharSet.includes(char)) {
+            return markCharSet;
+          }
+        });
+        if (dakutenCharSet) {
+          return dakutenCharSet;
+        } else {
+          return (
+            DAKUTEN_HANDAKUTEN_CHAR_SET.find((markCharSet) => {
+              if (markCharSet.includes(char)) {
+                return markCharSet;
+              }
+            }) || [char]
+          );
+        }
+      } else {
+        return [char];
+      }
+    });
+    const nextStartStrList = [];
+    // 順列を網羅したリストを作成
+    // 複雑になってしまうため、冗長だが1パターンずつ作成
+    if (nextStartStr.value.length === 3) {
+      // 3文字の場合
+      for (let i = 0; i < charSetList[0].length; i++) {
+        const permutation =
+          charSetList[0][i] + charSetList[1][0] + charSetList[2][0];
+        nextStartStrList.push(permutation);
+      }
+    } else if (nextStartStr.value.length === 2) {
+      // 2文字の場合
+      for (let i = 0; i < charSetList[0].length; i++) {
+        const permutation = charSetList[0][i] + charSetList[1][0];
+        nextStartStrList.push(permutation);
+      }
+    } else {
+      // 1文字の場合
+      for (let i = 0; i < charSetList[0].length; i++) {
+        const permutation = charSetList[0][i];
+        nextStartStrList.push(permutation);
+      }
+    }
+
     if (history.value.length > 0) {
-      candidate = NAME.find(
-        (word) =>
-          !history.value.includes(word) &&
+      candidate = NAME.find((word) => {
+        !history.value.includes(word) &&
           !word.endsWith("ン") &&
-          word.startsWith(nextStartStr.value)
-      );
+          nextStartStrList.find((str) => word.startsWith(str));
+      });
     } else {
       candidate = NAME.find(
-        (word) => !word.endsWith("ン") && word.startsWith(nextStartStr.value)
+        (word) =>
+          !word.endsWith("ン") &&
+          nextStartStrList.find((str) => word.startsWith(str))
       );
     }
     if (!candidate) {
       winMsgList.value.push(`「${nextStartStr.value}」 で返せる単語がない`);
     }
-    // TODO: 複数文字、それらの設定
 
     // 履歴にpush
     history.value.push(inputMsg.value);
