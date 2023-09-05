@@ -39,6 +39,8 @@ const submitMsg = () => {
     // 勝敗判定
     chkWord();
 
+    inputMsg.value = hiraToKana(inputMsg.value);
+
     // 特殊単語時の判定
     // 後ろから２文字目
     const secondFromLastChar = inputMsg.value.slice(-2, -1);
