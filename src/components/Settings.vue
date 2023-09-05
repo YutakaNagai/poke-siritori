@@ -34,78 +34,135 @@ const updateConfig = () => {
 
       <div>
         <div class="title">最初の文字</div>
-        <div>
+        <div v-if="props.config.randomFirstChar">
           <button
-            @click="
-              setConfig(
-                'firstChar',
-                props.config.firstChar === 'none' ? 'random' : 'none'
-              )
-            "
+            class="switchBtn"
+            @click="setConfig('randomFirstChar', !props.config.randomFirstChar)"
           >
-            {{ props.config.firstChar === "none" ? "指定なし" : "ランダム" }}
+            ランダム
           </button>
-          <p>ゲーム開始時にランダムで文字が指定されます。</p>
+          <div class="explainText">
+            <p>ゲーム開始時にランダムで文字が指定されます。</p>
+          </div>
+        </div>
+        <div v-else>
+          <button
+            class="switchBtn"
+            @click="setConfig('randomFirstChar', !props.config.randomFirstChar)"
+          >
+            指定なし
+          </button>
+          <div class="explainText">
+            <p>ゲーム開始時は任意の文字から開始できます。</p>
+          </div>
         </div>
       </div>
 
       <div>
         <div class="title">濁点/半濁点</div>
-        <div>
-          <button @click="setConfig('ignoreMark', !props.config.ignoreMark)">
-            {{
-              props.config.ignoreMark
-                ? "同じ文字として扱う"
-                : "違う文字として扱う"
-            }}
+        <div v-if="props.config.ignoreMark">
+          <button
+            class="switchBtn"
+            @click="setConfig('ignoreMark', !props.config.ignoreMark)"
+          >
+            同じ文字として扱う
           </button>
-          <p>
-            {{
-              props.config.ignoreMark
-                ? "半濁点のついた文字とそうでない文字を同じ文字として扱います。"
-                : "濁点/半濁点のついた文字とそうでない文字を違う文字として扱います。"
-            }}
-          </p>
-          <p>
-            {{
-              props.config.ignoreMark
-                ? "○ サンド → トドグラー"
-                : "× サンド → トドグラー"
-            }}
-          </p>
+          <div class="explainText">
+            <p>半濁点のついた文字とそうでない文字を同じ文字として扱います。</p>
+            <p>ex) サンド → トドグラー ○</p>
+          </div>
+        </div>
+        <div v-else>
+          <button
+            class="switchBtn"
+            @click="setConfig('ignoreMark', !props.config.ignoreMark)"
+          >
+            違う文字として扱う
+          </button>
+          <div class="explainText">
+            <p>
+              濁点/半濁点のついた文字とそうでない文字を違う文字として扱います。
+            </p>
+            <p>ex) サンド → トドグラー ×</p>
+          </div>
         </div>
       </div>
 
       <div>
         <div class="title">拗音</div>
         <div v-if="props.config.contractedTarget === 'secondlast'">
-          <button @click="setConfig('contractedTarget', 'last')">
+          <button
+            class="switchBtn"
+            @click="setConfig('contractedTarget', 'last')"
+          >
             拗音の前の文字
           </button>
-          <p>拗音の前の文字を次の開始文字として指定します。</p>
-          <p>ガーディ → 「デ」からはじまる単語</p>
-          <p>ハクリュー → 「リ」からはじまる単語</p>
+          <div class="explainText">
+            <p>拗音の前の文字を次の開始文字として指定します。</p>
+            <p>ガーディ → 「デ」からはじまる単語</p>
+          </div>
         </div>
         <div v-else-if="props.config.contractedTarget === 'last'">
-          <button @click="setConfig('contractedTarget', 'contracted')">
+          <button
+            class="switchBtn"
+            @click="setConfig('contractedTarget', 'contracted')"
+          >
             拗音
           </button>
-          <p>大文字に変換後の拗音を次の開始文字として指定します。</p>
-          <p>ガーディ → 「イ」からはじまる単語</p>
-          <p>ハクリュー → 「ユ」からはじまる単語</p>
+          <div class="explainText">
+            <p>大文字に変換後の拗音を次の開始文字として指定します。</p>
+            <p>ガーディ → 「イ」からはじまる単語</p>
+          </div>
         </div>
         <div v-else>
-          <button @click="setConfig('contractedTarget', 'secondlast')">
+          <button
+            class="switchBtn"
+            @click="setConfig('contractedTarget', 'secondlast')"
+          >
             拗音の前始まり
           </button>
-          <p>拗音の前の文字以降を次の開始文字として指定します。</p>
-          <p>ガーディ → 「ディ」からはじまる単語</p>
-          <p>ハクリュー → 「リュー」からはじまる単語</p>
+          <div class="explainText">
+            <p>拗音の前の文字以降を次の開始文字として指定します。</p>
+            <p>ガーディ → 「ディ」からはじまる単語</p>
+          </div>
         </div>
-        {{ props.config.contractedTarget }}
+      </div>
+
+      <div>
+        <div class="title">末尾の長音</div>
+        <div v-if="props.config.ignoreLastLong">
+          <button
+            class="switchBtn"
+            @click="setConfig('ignoreLastLong', !props.config.ignoreLastLong)"
+          >
+            開始文字に含める
+          </button>
+          <div class="explainText">
+            <p>
+              末尾に長音がついていた場合、長音を含めた文字を次の開始文字とします。
+            </p>
+            <p>ex) エレブー → ブーバー</p>
+          </div>
+        </div>
+        <div v-else>
+          <button
+            class="switchBtn"
+            @click="setConfig('ignoreLastLong', !props.config.ignoreLastLong)"
+          >
+            開始文字に含めない
+          </button>
+          <div class="explainText">
+            <p>
+              末尾に長音がついていた場合、長音を含めない文字を次の開始文字とします。
+            </p>
+            <p>ex) エレブー → ブーバー</p>
+          </div>
+        </div>
       </div>
     </div>
-    <button @click="updateConfig">設定して新規ゲームを開始</button>
+    <div>
+      <button @click="updateConfig">設定して新規ゲームを開始</button>
+    </div>
   </div>
 </template>
 
@@ -170,5 +227,27 @@ const updateConfig = () => {
 }
 .button-active {
   background: rgb(150, 218, 255);
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+.switchBtn {
+  display: inline-block;
+  width: 30%;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.explainText {
+  display: inline-block;
+  width: 60%;
+  top: 0;
+  left: 0;
+  font-size: small;
+  text-align: left;
 }
 </style>

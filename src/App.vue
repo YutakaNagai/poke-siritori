@@ -18,12 +18,14 @@ const winMsgList = ref([]);
 const errorMsgList = ref([]);
 const nextStartStr = ref("");
 const config = ref({
-  // ゲーム開始時の文字を指定するか none/random
-  firstChar: "none",
-  // 濁点/半濁点を許可するか false/true
-  ignoreMark: false,
+  // ゲーム開始時の文字を指定するか true/false
+  randomFirstChar: true,
+  // 濁点/半濁点を同じ文字として認識するか false/true
+  ignoreMark: true,
   // 末尾が拗音の場合、どの文字を開始文字とするか secondlast/last/contracted
-  contractedTarget: "secondlast",
+  contractedTarget: "contracted",
+  // 長音で終わっている場合長音の前の文字を開始文字とするか false/true
+  ignoreLastLong: true,
 });
 
 const contractedList = [
@@ -40,6 +42,13 @@ const submitMsg = () => {
     chkWord();
 
     inputMsg.value = hiraToKana(inputMsg.value);
+
+    // 長音終わりの場合、設定によっては末尾の長音を削除 履歴登録時に改めて長音を復活
+    let isDeleteLastLong = false;
+    if (config.value.ignoreLastLong && inputMsg.value.endsWith("ー")) {
+      inputMsg.value = inputMsg.value.slice(0, inputMsg.value.length - 1);
+      isDeleteLastLong = true;
+    }
 
     // 特殊単語時の判定
     // 後ろから２文字目
@@ -80,6 +89,7 @@ const submitMsg = () => {
     } else {
       nextStartStr.value = inputMsg.value.slice(-1);
     }
+    console.log("nextStartStr.value :>> ", nextStartStr.value);
 
     // 返せる単語がなかったら勝利
     let candidate = null;
@@ -148,6 +158,11 @@ const submitMsg = () => {
       winMsgList.value.push(`「${nextStartStr.value}」 で返せる単語がない`);
     }
 
+    // 末尾の長音を削除していた場合、ここで復活
+    if (isDeleteLastLong) {
+      inputMsg.value = inputMsg.value + "ー";
+    }
+
     // 履歴にpush
     history.value.push(inputMsg.value);
 
@@ -160,7 +175,7 @@ const retryGame = () => {
   history.value = [];
   loseMsgList.value = [];
   winMsgList.value = [];
-  if (config.value.firstChar === "random") {
+  if (config.value.randomFirstChar) {
     nextStartStr.value =
       FIRST_CHAR_ALLOW[Math.floor(Math.random() * FIRST_CHAR_ALLOW.length)];
   } else {
