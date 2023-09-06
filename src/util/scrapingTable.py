@@ -69,14 +69,38 @@ for urlSet in urlList:
         rows = table.findAll("tr")
         # 文字化け回避のためShift-JISで保存
         with open(
-            "src/util/csv/%s.csv" % (urlSet[0]), "w", encoding="cp932"
+            "src/util/csv/%s.csv" % (urlSet[0]), "w", encoding="utf-8"
         ) as file:
             writer = csv.writer(file)
-            for row in rows:
+            for index, row in enumerate(rows):
                 csvRow = []
                 for cell in row.findAll(["td", "th"]):
-                    # cp932に変換不可な文字を置換
-                    csvRow.append(cell.get_text().replace("\u2014", ""))
+                    cellText = ""
+                    if index == 0:
+                        # 見出し行の置換
+                        cellText = (
+                            cell.get_text()
+                            .replace("全国ナンバー", "number")
+                            .replace("名前", "name")
+                            .replace("タイプ1", "first_type")
+                            .replace("タイプ2", "second_type")
+                            .replace("#", "id")
+                            .replace("とくせい", "ability")
+                            .replace("効果", "effects")
+                            .replace("初出世代", "first_gen")
+                            .replace("タイプ", "type")
+                            .replace("威力", "power")
+                            .replace("命中", "accuracy")
+                            .replace("PP", "pp")
+                            .replace("分類", "species")
+                            .replace("優先度", "priority")
+                            .replace("使用可否", "isUse")
+                            .replace("\n", "")
+                        )
+                    else:
+                        # 不要/変換不可な文字を置換
+                        cellText = cell.get_text().replace("\n", "")
+                    csvRow.append(cellText)
                 print(csvRow)
                 writer.writerow(csvRow)
         print(

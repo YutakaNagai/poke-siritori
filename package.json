@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@vue/eslint-config-prettier": "^8.0.0",
+    "csvtojson": "^2.0.10",
+    "log4js": "^6.9.1",
     "prettier": "^3.0.3",
     "vue": "^3.3.4"
   },
