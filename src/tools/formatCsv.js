@@ -3,8 +3,8 @@ import fs from "fs";
 import log4js from "log4js";
 
 const targetFileName = "poke";
-const csvFilePath = `src/util/csv/${targetFileName}.csv`;
-const jsonFilePath = `src/util/json/${targetFileName}.json`;
+const csvFilePath = `src/data/csv/${targetFileName}.csv`;
+const jsonFilePath = `src/data/json/${targetFileName}.json`;
 
 const logger = log4js.getLogger();
 logger.level = "all";

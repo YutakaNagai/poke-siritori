@@ -68,9 +68,7 @@ for urlSet in urlList:
         table = soup.findAll("table")[0]
         rows = table.findAll("tr")
         # 文字化け回避のためShift-JISで保存
-        with open(
-            "src/util/csv/%s.csv" % (urlSet[0]), "w", encoding="utf-8"
-        ) as file:
+        with open("src/data/csv/%s.csv" % (urlSet[0]), "w", encoding="utf-8") as file:
             writer = csv.writer(file)
             for index, row in enumerate(rows):
                 csvRow = []
@@ -101,12 +99,10 @@ for urlSet in urlList:
                         # 不要/変換不可な文字を置換
                         cellText = cell.get_text().replace("\n", "")
                     csvRow.append(cellText)
-                print(csvRow)
                 writer.writerow(csvRow)
         print(
             "\033[34m"
-            + "[INFO]: The file '%s.csv' was successfully created."
-            % (urlSet[0])
+            + "[INFO]: The file '%s.csv' was successfully created." % (urlSet[0])
             + "\033[0m"
         )
     except:
