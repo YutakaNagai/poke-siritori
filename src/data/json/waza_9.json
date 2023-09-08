@@ -1,0 +1,8155 @@
+[
+  {
+    "name": "SV"
+  },
+  {
+    "name": "10まんばりき",
+    "type": "じめん",
+    "power": "95",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "10まんボルト",
+    "type": "でんき",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "3ぼんのや",
+    "type": "かくとう",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "DDラリアット",
+    "type": "あく",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "Gのちから",
+    "type": "くさ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "Vジェネレート",
+    "type": "ほのお",
+    "power": "180",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アーマーキャノン",
+    "type": "ほのお",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アームハンマー",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイアンテール",
+    "type": "はがね",
+    "power": "100",
+    "accuracy": "75",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイアンヘッド",
+    "type": "はがね",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイアンローラー",
+    "type": "はがね",
+    "power": "130",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイススピナー",
+    "type": "こおり",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイスハンマー",
+    "type": "こおり",
+    "power": "100",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アイスボール",
+    "type": "こおり",
+    "power": "30",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "あおいほのお",
+    "type": "ほのお",
+    "power": "130",
+    "accuracy": "85",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アクアカッター",
+    "type": "みず",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクアジェット",
+    "type": "みず",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "アクアステップ",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクアテール",
+    "type": "みず",
+    "power": "90",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクアブレイク",
+    "type": "みず",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクアリング",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あくうせつだん",
+    "type": "ドラゴン",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクセルブレイク",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アクセルロック",
+    "type": "いわ",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "あくのはどう",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あくび",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あくまのキッス",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "75",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "あくむ",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アクロバット",
+    "type": "ひこう",
+    "power": "55",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あさのひざし",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アシストギア",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アシストパワー",
+    "type": "エスパー",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アシッドボム",
+    "type": "どく",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アストラルビット",
+    "type": "ゴースト",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あてみなげ",
+    "type": "かくとう",
+    "power": "70",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "-1",
+    "isUse": "×"
+  },
+  {
+    "name": "あなをほる",
+    "type": "じめん",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あばれる",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "アフロブレイク",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "あまいかおり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あまえる",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あまごい",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あやしいかぜ",
+    "type": "ゴースト",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "あやしいひかり",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あられ",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アロマセラピー",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アロマミスト",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あわ",
+    "type": "みず",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アンカーショット",
+    "type": "はがね",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "アンコール",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "あんこくきょうだ",
+    "type": "あく",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いあいぎり",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "95",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いえき",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "イカサマ",
+    "type": "あく",
+    "power": "95",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いかり",
+    "type": "ノーマル",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "いかりのこな",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "いかりのまえば",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いじげんホール",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いじげんラッシュ",
+    "type": "あく",
+    "power": "100",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いたみわけ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いちゃもん",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いっちょうあがり",
+    "type": "ドラゴン",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いてつくしせん",
+    "type": "エスパー",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いとをはく",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "95",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "イナズマドライブ",
+    "type": "でんき",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いにしえのうた",
+    "type": "ノーマル",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いのちがけ",
+    "type": "かくとう",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いのちのしずく",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いばる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いびき",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いやしのすず",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いやしのねがい",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いやしのはどう",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いやなおと",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "85",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いわおとし",
+    "type": "いわ",
+    "power": "50",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いわくだき",
+    "type": "かくとう",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "いわなだれ",
+    "type": "いわ",
+    "power": "75",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "インファイト",
+    "type": "かくとう",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ウェーブタックル",
+    "type": "みず",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ウェザーボール",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うずしお",
+    "type": "みず",
+    "power": "35",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うそなき",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うたう",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "55",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うたかたのアリア",
+    "type": "みず",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "うちおとす",
+    "type": "いわ",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うつしえ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ウッドハンマー",
+    "type": "くさ",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ウッドホーン",
+    "type": "くさ",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うっぷんばらし",
+    "type": "あく",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うらみ",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "うらみつらみ",
+    "type": "ゴースト",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エアカッター",
+    "type": "ひこう",
+    "power": "60",
+    "accuracy": "95",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エアスラッシュ",
+    "type": "ひこう",
+    "power": "75",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エアロブラスト",
+    "type": "ひこう",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "エコーボイス",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "えだづき",
+    "type": "くさ",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エナジーボール",
+    "type": "くさ",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エラがみ",
+    "type": "みず",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "エレキネット",
+    "type": "でんき",
+    "power": "55",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エレキフィールド",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "エレキボール",
+    "type": "でんき",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "えんまく",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おいうち",
+    "type": "あく",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おいかぜ",
+    "type": "ひこう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おいわい",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おうふくビンタ",
+    "type": "ノーマル",
+    "power": "15",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "オウムがえし",
+    "type": "ひこう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "オーバードライブ",
+    "type": "でんき",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "オーバーヒート",
+    "type": "ほのお",
+    "power": "130",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "オーラウイング",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "オーラぐるま",
+    "type": "でんき",
+    "power": "110",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "オーロラビーム",
+    "type": "こおり",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "オーロラベール",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おかたづけ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おきみやげ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "オクタンほう",
+    "type": "みず",
+    "power": "65",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おさきにどうぞ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おしおき",
+    "type": "あく",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おしゃべり",
+    "type": "ひこう",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おたけび",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おだてる",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おちゃかい",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おどろかす",
+    "type": "ゴースト",
+    "power": "30",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おにび",
+    "type": "ほのお",
+    "power": "0",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おはかまいり",
+    "type": "ゴースト",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "おまじない",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おんがえし",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "おんねん",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ガードシェア",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ガードスワップ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かいでんぱ",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かいふくしれい",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "かいふくふうじ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "かいりき",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "カウンター",
+    "type": "かくとう",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "-5",
+    "isUse": ""
+  },
+  {
+    "name": "かえんぐるま",
+    "type": "ほのお",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かえんだん",
+    "type": "ほのお",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "かえんほうしゃ",
+    "type": "ほのお",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かえんボール",
+    "type": "ほのお",
+    "power": "120",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かかとおとし",
+    "type": "かくとう",
+    "power": "120",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かぎわける",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "かくばる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "かげうち",
+    "type": "ゴースト",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "かげぬい",
+    "type": "ゴースト",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かげぶんしん",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かぜおこし",
+    "type": "ひこう",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かたきうち",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かたくなる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "カタストロフィ",
+    "type": "あく",
+    "power": "1",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かなしばり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かふんだんご",
+    "type": "むし",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かまいたち",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "がまん",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": "×"
+  },
+  {
+    "name": "かみくだく",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かみつく",
+    "type": "あく",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かみなり",
+    "type": "でんき",
+    "power": "110",
+    "accuracy": "70",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かみなりあらし",
+    "type": "でんき",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かみなりのキバ",
+    "type": "でんき",
+    "power": "65",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かみなりパンチ",
+    "type": "でんき",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "がむしゃら",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "からげんき",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "からてチョップ",
+    "type": "かくとう",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "からではさむ",
+    "type": "みず",
+    "power": "35",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "からにこもる",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "からみつく",
+    "type": "ノーマル",
+    "power": "10",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "からをやぶる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ガリョウテンセイ",
+    "type": "ひこう",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "かわらわり",
+    "type": "かくとう",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "がんせきアックス",
+    "type": "いわ",
+    "power": "65",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "がんせきふうじ",
+    "type": "いわ",
+    "power": "60",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "がんせきほう",
+    "type": "いわ",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "きあいだま",
+    "type": "かくとう",
+    "power": "120",
+    "accuracy": "70",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きあいだめ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きあいパンチ",
+    "type": "かくとう",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "-3",
+    "isUse": ""
+  },
+  {
+    "name": "ギアソーサー",
+    "type": "はがね",
+    "power": "50",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ギアチェンジ",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ギガインパクト",
+    "type": "ノーマル",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ギガドレイン",
+    "type": "くさ",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きしかいせい",
+    "type": "かくとう",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きつけ",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "キノコのほうし",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ギフトパス",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "きゅうけつ",
+    "type": "むし",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きょけんとつげき",
+    "type": "ドラゴン",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きょじゅうざん",
+    "type": "はがね",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きょじゅうだん",
+    "type": "はがね",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "キラースピン",
+    "type": "どく",
+    "power": "30",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きりさく",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きりばらい",
+    "type": "ひこう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "きりふだ",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ぎんいろのかぜ",
+    "type": "むし",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "キングシールド",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": "×"
+  },
+  {
+    "name": "きんぞくおん",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "85",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "クイックターン",
+    "type": "みず",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くさのちかい",
+    "type": "くさ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くさぶえ",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "55",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "くさむすび",
+    "type": "くさ",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くさわけ",
+    "type": "くさ",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くすぐる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くちばしキャノン",
+    "type": "ひこう",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "-3",
+    "isUse": "×"
+  },
+  {
+    "name": "クモのす",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "くらいつく",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "グラススライダー",
+    "type": "くさ",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "グラスフィールド",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "グラスミキサー",
+    "type": "くさ",
+    "power": "65",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "クラブハンマー",
+    "type": "みず",
+    "power": "100",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "グランドフォース",
+    "type": "じめん",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "クリアスモッグ",
+    "type": "どく",
+    "power": "50",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くろいきり",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "くろいまなざし",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "グロウパンチ",
+    "type": "かくとう",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "クロスサンダー",
+    "type": "でんき",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "クロスチョップ",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "クロスフレイム",
+    "type": "ほのお",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "クロスポイズン",
+    "type": "どく",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "クロロブラスト",
+    "type": "くさ",
+    "power": "150",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "げきりん",
+    "type": "ドラゴン",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "けたぐり",
+    "type": "かくとう",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ゲップ",
+    "type": "どく",
+    "power": "120",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "げんしのちから",
+    "type": "いわ",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "コアパニッシャー",
+    "type": "ドラゴン",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "こうげきしれい",
+    "type": "むし",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こうごうせい",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こうそくいどう",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こうそくスピン",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ゴーストダイブ",
+    "type": "ゴースト",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "コーチング",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "コートチェンジ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こおりのいぶき",
+    "type": "こおり",
+    "power": "60",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こおりのキバ",
+    "type": "こおり",
+    "power": "65",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こおりのつぶて",
+    "type": "こおり",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "コールドフレア",
+    "type": "こおり",
+    "power": "140",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ゴールドラッシュ",
+    "type": "はがね",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こがらしあらし",
+    "type": "ひこう",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こごえるかぜ",
+    "type": "こおり",
+    "power": "55",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こごえるせかい",
+    "type": "こおり",
+    "power": "65",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "こころのめ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "コスモパワー",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ゴッドバード",
+    "type": "ひこう",
+    "power": "140",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "コットンガード",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こなゆき",
+    "type": "こおり",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "このは",
+    "type": "くさ",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "このゆびとまれ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "コメットパンチ",
+    "type": "はがね",
+    "power": "90",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こらえる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "ころがる",
+    "type": "いわ",
+    "power": "30",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こわいかお",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "こんげんのはどう",
+    "type": "みず",
+    "power": "110",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "さいきのいのり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "1",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイケこうせん",
+    "type": "エスパー",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコウェーブ",
+    "type": "エスパー",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "サイコカッター",
+    "type": "エスパー",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコキネシス",
+    "type": "エスパー",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコシフト",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "サイコショック",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコファング",
+    "type": "エスパー",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコフィールド",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコブースト",
+    "type": "エスパー",
+    "power": "140",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "サイコブレイク",
+    "type": "エスパー",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイコブレイド",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サイドチェンジ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "さいはい",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "さいみんじゅつ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "60",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サウザンアロー",
+    "type": "じめん",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "サウザンウェーブ",
+    "type": "じめん",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "さきおくり",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "さきどり",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "さしおさえ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "さばきのつぶて",
+    "type": "ノーマル",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "さむいギャグ",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "さわぐ",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "サンダープリズン",
+    "type": "でんき",
+    "power": "80",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シードフレア",
+    "type": "くさ",
+    "power": "120",
+    "accuracy": "85",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ジェットパンチ",
+    "type": "みず",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "シェルアームズ",
+    "type": "どく",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シェルブレード",
+    "type": "みず",
+    "power": "75",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ジオコントロール",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しおづけ",
+    "type": "いわ",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しおふき",
+    "type": "みず",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しおみず",
+    "type": "みず",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シグナルビーム",
+    "type": "むし",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "じこあんじ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じごくぐるま",
+    "type": "かくとう",
+    "power": "80",
+    "accuracy": "80",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "じごくづき",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じこさいせい",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シザークロス",
+    "type": "むし",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じしん",
+    "type": "じめん",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しぜんのいかり",
+    "type": "フェアリー",
+    "power": "1",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しぜんのちから",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しぜんのめぐみ",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "したでなめる",
+    "type": "ゴースト",
+    "power": "30",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じたばた",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じだんだ",
+    "type": "じめん",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しっとのほのお",
+    "type": "ほのお",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しっぺがえし",
+    "type": "あく",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しっぽきり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しっぽをふる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じならし",
+    "type": "じめん",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しねんのずつき",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じばく",
+    "type": "ノーマル",
+    "power": "200",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じばそうさ",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しびれごな",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "75",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しぼりとる",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しめつける",
+    "type": "ノーマル",
+    "power": "15",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ジャイロボール",
+    "type": "はがね",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドークロー",
+    "type": "ゴースト",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドースチール",
+    "type": "ゴースト",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドーダイブ",
+    "type": "ゴースト",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドーパンチ",
+    "type": "ゴースト",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドーボール",
+    "type": "ゴースト",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シャドーボーン",
+    "type": "ゴースト",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "シャドーレイ",
+    "type": "ゴースト",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "じゃれつく",
+    "type": "フェアリー",
+    "power": "90",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ジャングルヒール",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じゅうでん",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じゅうりょく",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じょうか",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しょうりのまい",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しろいきり",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "じわれ",
+    "type": "じめん",
+    "power": "1",
+    "accuracy": "30",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しんくうは",
+    "type": "かくとう",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "特殊",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "シンクロノイズ",
+    "type": "エスパー",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しんそく",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "じんつうりき",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しんぴのちから",
+    "type": "エスパー",
+    "power": "70",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "しんぴのつるぎ",
+    "type": "かくとう",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "しんぴのまもり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "25",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "シンプルビーム",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スイープビンタ",
+    "type": "ノーマル",
+    "power": "25",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すいとる",
+    "type": "くさ",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すいりゅうれんだ",
+    "type": "みず",
+    "power": "25",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スカイアッパー",
+    "type": "かくとう",
+    "power": "85",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "スキルスワップ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スケイルショット",
+    "type": "ドラゴン",
+    "power": "25",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スケイルノイズ",
+    "type": "ドラゴン",
+    "power": "110",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "スケッチ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "1",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "スターアサルト",
+    "type": "かくとう",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "スチームバースト",
+    "type": "みず",
+    "power": "110",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ずつき",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すてゼリフ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すてみタックル",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ステルスロック",
+    "type": "いわ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ストーンエッジ",
+    "type": "いわ",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すなあつめ",
+    "type": "じめん",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すなあらし",
+    "type": "いわ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すなかけ",
+    "type": "じめん",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すなじごく",
+    "type": "じめん",
+    "power": "35",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スパーク",
+    "type": "でんき",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スピードスター",
+    "type": "ノーマル",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スピードスワップ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スプーンまげ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "80",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "スポットライト",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "+3",
+    "isUse": "×"
+  },
+  {
+    "name": "スマートホーン",
+    "type": "はがね",
+    "power": "70",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スモッグ",
+    "type": "どく",
+    "power": "30",
+    "accuracy": "70",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "すりかえ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "スレッドトラップ",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "せいちょう",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "せいなるつるぎ",
+    "type": "かくとう",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "せいなるほのお",
+    "type": "ほのお",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ぜったいれいど",
+    "type": "こおり",
+    "power": "1",
+    "accuracy": "30",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "そうでん",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ソウルクラッシュ",
+    "type": "フェアリー",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ソウルビート",
+    "type": "ドラゴン",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ソーラービーム",
+    "type": "くさ",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ソーラーブレード",
+    "type": "くさ",
+    "power": "125",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ソニックブーム",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "そらをとぶ",
+    "type": "ひこう",
+    "power": "90",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダークアクセル",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダークホール",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "50",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "タールショット",
+    "type": "いわ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たいあたり",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だいちのちから",
+    "type": "じめん",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だいちのはどう",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だいばくはつ",
+    "type": "ノーマル",
+    "power": "250",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダイビング",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だいふんげき",
+    "type": "ほのお",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダイマックスほう",
+    "type": "ドラゴン",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だいもんじ",
+    "type": "ほのお",
+    "power": "110",
+    "accuracy": "85",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダイヤストーム",
+    "type": "いわ",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たがやす",
+    "type": "じめん",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "たきのぼり",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だくりゅう",
+    "type": "みず",
+    "power": "90",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たくわえる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たこがため",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ダストシュート",
+    "type": "どく",
+    "power": "120",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たたきつける",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "75",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たたみがえし",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "たたりめ",
+    "type": "ゴースト",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たつまき",
+    "type": "ドラゴン",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "たてこもる",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "タネばくだん",
+    "type": "くさ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "タネマシンガン",
+    "type": "くさ",
+    "power": "25",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダブルアタック",
+    "type": "ノーマル",
+    "power": "35",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダブルウイング",
+    "type": "ひこう",
+    "power": "40",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ダブルチョップ",
+    "type": "ドラゴン",
+    "power": "40",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ダブルニードル",
+    "type": "むし",
+    "power": "25",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ダブルパンツァー",
+    "type": "はがね",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "タマゴうみ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "タマゴばくだん",
+    "type": "ノーマル",
+    "power": "100",
+    "accuracy": "75",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "だましうち",
+    "type": "あく",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "たまなげ",
+    "type": "ノーマル",
+    "power": "15",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ダメおし",
+    "type": "あく",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "だんがいのつるぎ",
+    "type": "じめん",
+    "power": "120",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちいさくなる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちからをすいとる",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちきゅうなげ",
+    "type": "かくとう",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "チャージビーム",
+    "type": "でんき",
+    "power": "50",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "チャームボイス",
+    "type": "フェアリー",
+    "power": "40",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちょうおんぱ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "55",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちょうのまい",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ちょうはつ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ついばむ",
+    "type": "ひこう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ツインビーム",
+    "type": "エスパー",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つきのひかり",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つけあがる",
+    "type": "あく",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つじぎり",
+    "type": "あく",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つつく",
+    "type": "ひこう",
+    "power": "35",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つっぱり",
+    "type": "かくとう",
+    "power": "15",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つのでつく",
+    "type": "ノーマル",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つのドリル",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "30",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つばさでうつ",
+    "type": "ひこう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つばめがえし",
+    "type": "ひこう",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つぶらなひとみ",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "変化",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "つぼをつく",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つめとぎ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つららおとし",
+    "type": "こおり",
+    "power": "85",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つららばり",
+    "type": "こおり",
+    "power": "25",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つるぎのまい",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "つるのムチ",
+    "type": "くさ",
+    "power": "45",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "であいがしら",
+    "type": "むし",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "てかげん",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "デカハンマー",
+    "type": "はがね",
+    "power": "160",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "テクスチャー",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "テクスチャー2",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "テクノバスター",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "デコレーション",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "デスウイング",
+    "type": "ひこう",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "てだすけ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "+5",
+    "isUse": ""
+  },
+  {
+    "name": "てっていこうせん",
+    "type": "はがね",
+    "power": "140",
+    "accuracy": "95",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "てっぺき",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "テラバースト",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "テレキネシス",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "テレポート",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "-6",
+    "isUse": ""
+  },
+  {
+    "name": "てをつなぐ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんきショック",
+    "type": "でんき",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんげきくちばし",
+    "type": "でんき",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "でんげきは",
+    "type": "でんき",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんこうせっか",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "でんこうそうげき",
+    "type": "でんき",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "てんしのキッス",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "75",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんじは",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんじふゆう",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "でんじほう",
+    "type": "でんき",
+    "power": "120",
+    "accuracy": "50",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とおせんぼう",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "トーチカ",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "とおぼえ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とぎすます",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ときのほうこう",
+    "type": "ドラゴン",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくガス",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "90",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくづき",
+    "type": "どく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくどく",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくどくのキバ",
+    "type": "どく",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくのいと",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "どくのこな",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "75",
+    "pp": "35",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくばり",
+    "type": "どく",
+    "power": "15",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくばりセンボン",
+    "type": "どく",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どくびし",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とぐろをまく",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とげキャノン",
+    "type": "ノーマル",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "どげざつき",
+    "type": "あく",
+    "power": "80",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドゲザン",
+    "type": "あく",
+    "power": "85",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とける",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とっしん",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とっておき",
+    "type": "ノーマル",
+    "power": "140",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とどめばり",
+    "type": "むし",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とびかかる",
+    "type": "むし",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とびげり",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "とびつく",
+    "type": "むし",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とびはねる",
+    "type": "ひこう",
+    "power": "85",
+    "accuracy": "85",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とびひざげり",
+    "type": "かくとう",
+    "power": "130",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ともえなげ",
+    "type": "かくとう",
+    "power": "60",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "-6",
+    "isUse": ""
+  },
+  {
+    "name": "トライアタック",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンアロー",
+    "type": "ドラゴン",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンエナジー",
+    "type": "ドラゴン",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンクロー",
+    "type": "ドラゴン",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンダイブ",
+    "type": "ドラゴン",
+    "power": "100",
+    "accuracy": "75",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンテール",
+    "type": "ドラゴン",
+    "power": "60",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "-6",
+    "isUse": ""
+  },
+  {
+    "name": "ドラゴンハンマー",
+    "type": "ドラゴン",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "トラップシェル",
+    "type": "ほのお",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "-3",
+    "isUse": "×"
+  },
+  {
+    "name": "トラバサミ",
+    "type": "くさ",
+    "power": "35",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ドラムアタック",
+    "type": "くさ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "トリック",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "トリックガード",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+3",
+    "isUse": "×"
+  },
+  {
+    "name": "トリックフラワー",
+    "type": "くさ",
+    "power": "70",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "トリックルーム",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "-7",
+    "isUse": ""
+  },
+  {
+    "name": "トリプルアクセル",
+    "type": "こおり",
+    "power": "20",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "トリプルキック",
+    "type": "かくとう",
+    "power": "10",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "トリプルダイブ",
+    "type": "みず",
+    "power": "30",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドリルくちばし",
+    "type": "ひこう",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドリルライナー",
+    "type": "じめん",
+    "power": "80",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドレインキッス",
+    "type": "フェアリー",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドレインパンチ",
+    "type": "かくとう",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どろあそび",
+    "type": "じめん",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "どろかけ",
+    "type": "じめん",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どろばくだん",
+    "type": "じめん",
+    "power": "65",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "トロピカルキック",
+    "type": "くさ",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "どろぼう",
+    "type": "あく",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ドわすれ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "とんぼがえり",
+    "type": "むし",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ないしょばなし",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ナイトバースト",
+    "type": "あく",
+    "power": "85",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ナイトヘッド",
+    "type": "ゴースト",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なかまづくり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なかよくする",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なきごえ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なげつける",
+    "type": "あく",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なしくずし",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "なまける",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なみだめ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なみのり",
+    "type": "みず",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なやみのタネ",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "なりきり",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ニードルアーム",
+    "type": "くさ",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ニードルガード",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "にぎりつぶす",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "にどげり",
+    "type": "かくとう",
+    "power": "30",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ニトロチャージ",
+    "type": "ほのお",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "にほんばれ",
+    "type": "ほのお",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "にらみつける",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねがいごと",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねこだまし",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "+3",
+    "isUse": ""
+  },
+  {
+    "name": "ねごと",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ネコにこばん",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねこのて",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ネズミざん",
+    "type": "ノーマル",
+    "power": "20",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねっさのあらし",
+    "type": "じめん",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねっさのだいち",
+    "type": "じめん",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねっとう",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねっぷう",
+    "type": "ほのお",
+    "power": "95",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねばねばネット",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねむりごな",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "75",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねむる",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねらいうち",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねをはる",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ねんりき",
+    "type": "エスパー",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "のしかかり",
+    "type": "ノーマル",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "のみこむ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "のろい",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "バークアウト",
+    "type": "あく",
+    "power": "55",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハートスタンプ",
+    "type": "エスパー",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ハートスワップ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハードプラント",
+    "type": "くさ",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハードローラー",
+    "type": "むし",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "バーンアクセル",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はいすいのじん",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハイドロカノン",
+    "type": "みず",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハイドロスチーム",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハイドロポンプ",
+    "type": "みず",
+    "power": "110",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハイパードリル",
+    "type": "ノーマル",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハイパーボイス",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はいよるいちげき",
+    "type": "むし",
+    "power": "70",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はかいこうせん",
+    "type": "ノーマル",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ばかぢから",
+    "type": "かくとう",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はがねのつばさ",
+    "type": "はがね",
+    "power": "70",
+    "accuracy": "90",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はきだす",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ばくおんぱ",
+    "type": "ノーマル",
+    "power": "140",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ばくれつパンチ",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "50",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハサミギロチン",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "30",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はさむ",
+    "type": "ノーマル",
+    "power": "55",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はじけるほのお",
+    "type": "ほのお",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "はたきおとす",
+    "type": "あく",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はたく",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はっけい",
+    "type": "かくとう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はっぱカッター",
+    "type": "くさ",
+    "power": "55",
+    "accuracy": "95",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハッピータイム",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はどうだん",
+    "type": "かくとう",
+    "power": "80",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "バトンタッチ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はなびらのまい",
+    "type": "くさ",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はなふぶき",
+    "type": "くさ",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はねやすめ",
+    "type": "ひこう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はねる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ハバネロエキス",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "バブルこうせん",
+    "type": "みず",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はめつのねがい",
+    "type": "はがね",
+    "power": "140",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "はめつのひかり",
+    "type": "フェアリー",
+    "power": "140",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "はらだいこ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パラボラチャージ",
+    "type": "でんき",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "バリアー",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "バリアーラッシュ",
+    "type": "エスパー",
+    "power": "70",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "はるのあらし",
+    "type": "フェアリー",
+    "power": "100",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "バレットパンチ",
+    "type": "はがね",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "ハロウィン",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "パワーウィップ",
+    "type": "くさ",
+    "power": "120",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パワーシェア",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パワージェム",
+    "type": "いわ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パワーシフト",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パワースワップ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "パワートリック",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ヒートスタンプ",
+    "type": "ほのお",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひかりのかべ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひけん・ちえなみ",
+    "type": "あく",
+    "power": "65",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひっかく",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひっくりかえす",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ビックリヘッド",
+    "type": "ほのお",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ひっさつまえば",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ひのこ",
+    "type": "ほのお",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひみつのちから",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ひゃっきやこう",
+    "type": "ゴースト",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひやみず",
+    "type": "みず",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ひょうざんおろし",
+    "type": "こおり",
+    "power": "100",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ピヨピヨパンチ",
+    "type": "ノーマル",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "びりびりちくちく",
+    "type": "でんき",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ビルドアップ",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ファイトアクセル",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ファストガード",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "+3",
+    "isUse": ""
+  },
+  {
+    "name": "ふいうち",
+    "type": "あく",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "ふういん",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フェアリーロック",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フェイタルクロー",
+    "type": "どく",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フェイント",
+    "type": "ノーマル",
+    "power": "30",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "+2",
+    "isUse": ""
+  },
+  {
+    "name": "フェザーダンス",
+    "type": "ひこう",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フォトンゲイザー",
+    "type": "エスパー",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ふきとばし",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "-6",
+    "isUse": ""
+  },
+  {
+    "name": "ぶきみなじゅもん",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふくろだたき",
+    "type": "あく",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふしょくガス",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ぶちかまし",
+    "type": "じめん",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふぶき",
+    "type": "こおり",
+    "power": "110",
+    "accuracy": "70",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふみつけ",
+    "type": "ノーマル",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フライングプレス",
+    "type": "かくとう",
+    "power": "100",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ブラストバーン",
+    "type": "ほのお",
+    "power": "150",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "プラズマシャワー",
+    "type": "でんき",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "25",
+    "species": "変化",
+    "priority": "+1",
+    "isUse": "×"
+  },
+  {
+    "name": "プラズマフィスト",
+    "type": "でんき",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "フラッシュ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "フラフラダンス",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フラワーガード",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "フラワーヒール",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "フリーズドライ",
+    "type": "こおり",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フリーズボルト",
+    "type": "こおり",
+    "power": "140",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "フリーフォール",
+    "type": "ひこう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ブリザードランス",
+    "type": "こおり",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "プリズムレーザー",
+    "type": "エスパー",
+    "power": "160",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ふるいたてる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フルールカノン",
+    "type": "フェアリー",
+    "power": "130",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フレアソング",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "フレアドライブ",
+    "type": "ほのお",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ブレイククロー",
+    "type": "ノーマル",
+    "power": "75",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ブレイズキック",
+    "type": "ほのお",
+    "power": "85",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ブレイブチャージ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ブレイブバード",
+    "type": "ひこう",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "プレゼント",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "90",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ブロッキング",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": "×"
+  },
+  {
+    "name": "ふんえん",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふんか",
+    "type": "ほのお",
+    "power": "150",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ふんじん",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "+1",
+    "isUse": "×"
+  },
+  {
+    "name": "ふんどのこぶし",
+    "type": "ゴースト",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ぶんまわす",
+    "type": "あく",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ヘドロウェーブ",
+    "type": "どく",
+    "power": "95",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ヘドロこうげき",
+    "type": "どく",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ヘドロばくだん",
+    "type": "どく",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ベノムショック",
+    "type": "どく",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ベノムトラップ",
+    "type": "どく",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ヘビーボンバー",
+    "type": "はがね",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "へびにらみ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "へんしん",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ホイールスピン",
+    "type": "はがね",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ポイズンアクセル",
+    "type": "どく",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ポイズンテール",
+    "type": "どく",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ぼうぎょしれい",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほうでん",
+    "type": "でんき",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ぼうふう",
+    "type": "ひこう",
+    "power": "110",
+    "accuracy": "70",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほうふく",
+    "type": "あく",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほえる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "-6",
+    "isUse": ""
+  },
+  {
+    "name": "ほおばる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ボーンラッシュ",
+    "type": "じめん",
+    "power": "25",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほごしょく",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ほしがる",
+    "type": "ノーマル",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほたるび",
+    "type": "むし",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ほっぺすりすり",
+    "type": "でんき",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ボディパージ",
+    "type": "はがね",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ボディプレス",
+    "type": "かくとう",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ホネこんぼう",
+    "type": "じめん",
+    "power": "65",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ホネブーメラン",
+    "type": "じめん",
+    "power": "50",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ほのおのうず",
+    "type": "ほのお",
+    "power": "35",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほのおのキバ",
+    "type": "ほのお",
+    "power": "65",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほのおのちかい",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほのおのパンチ",
+    "type": "ほのお",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほのおのまい",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほのおのムチ",
+    "type": "ほのお",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ポルターガイスト",
+    "type": "ゴースト",
+    "power": "110",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ボルテッカー",
+    "type": "でんき",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ボルトチェンジ",
+    "type": "でんき",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ほろびのうた",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "まきつく",
+    "type": "ノーマル",
+    "power": "15",
+    "accuracy": "90",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "まきびし",
+    "type": "じめん",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マグニチュード",
+    "type": "じめん",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "マグネットボム",
+    "type": "はがね",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "マグマストーム",
+    "type": "ほのお",
+    "power": "100",
+    "accuracy": "75",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マジカルアクセル",
+    "type": "フェアリー",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マジカルシャイン",
+    "type": "フェアリー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マジカルフレイム",
+    "type": "ほのお",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マジカルリーフ",
+    "type": "くさ",
+    "power": "60",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マジックコート",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": "×"
+  },
+  {
+    "name": "マジックルーム",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マッドショット",
+    "type": "じめん",
+    "power": "55",
+    "accuracy": "95",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マッハパンチ",
+    "type": "かくとう",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "物理",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "まとわりつく",
+    "type": "むし",
+    "power": "20",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "まねっこ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "まほうのこな",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "まもる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "まるくなる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "マルチアタック",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "まわしげり",
+    "type": "かくとう",
+    "power": "60",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "みかづきのいのり",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みかづきのまい",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みがわり",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みきり",
+    "type": "かくとう",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": ""
+  },
+  {
+    "name": "ミサイルばり",
+    "type": "むし",
+    "power": "25",
+    "accuracy": "95",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みずあそび",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "みずしゅりけん",
+    "type": "みず",
+    "power": "15",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "+1",
+    "isUse": ""
+  },
+  {
+    "name": "みずでっぽう",
+    "type": "みず",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "25",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ミストバースト",
+    "type": "フェアリー",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ミストフィールド",
+    "type": "フェアリー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ミストボール",
+    "type": "エスパー",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "みずのちかい",
+    "type": "みず",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みずのはどう",
+    "type": "みず",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みずびたし",
+    "type": "みず",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みだれづき",
+    "type": "ノーマル",
+    "power": "15",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みだれひっかき",
+    "type": "ノーマル",
+    "power": "18",
+    "accuracy": "80",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みちづれ",
+    "type": "ゴースト",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みねうち",
+    "type": "ノーマル",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みやぶる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ミラーコート",
+    "type": "エスパー",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "-5",
+    "isUse": ""
+  },
+  {
+    "name": "ミラーショット",
+    "type": "はがね",
+    "power": "65",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ミラータイプ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みらいよち",
+    "type": "エスパー",
+    "power": "120",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ミラクルアイ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ミルクのみ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "みをけずる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ムーンフォース",
+    "type": "フェアリー",
+    "power": "95",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ムゲンダイビーム",
+    "type": "ドラゴン",
+    "power": "160",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "むしくい",
+    "type": "むし",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "むしのさざめき",
+    "type": "むし",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "むしのていこう",
+    "type": "むし",
+    "power": "50",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "むねんのつるぎ",
+    "type": "ほのお",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "めいそう",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メガドレイン",
+    "type": "くさ",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メガトンキック",
+    "type": "ノーマル",
+    "power": "120",
+    "accuracy": "75",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メガトンパンチ",
+    "type": "ノーマル",
+    "power": "80",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メガホーン",
+    "type": "むし",
+    "power": "120",
+    "accuracy": "85",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "めざましビンタ",
+    "type": "かくとう",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "めざめるダンス",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "めざめるパワー",
+    "type": "ノーマル",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "メタルクロー",
+    "type": "はがね",
+    "power": "50",
+    "accuracy": "95",
+    "pp": "35",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メタルバースト",
+    "type": "はがね",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メテオドライブ",
+    "type": "はがね",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "メテオビーム",
+    "type": "いわ",
+    "power": "120",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "メロメロ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "もえあがるいかり",
+    "type": "あく",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "もえつきる",
+    "type": "ほのお",
+    "power": "130",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ものまね",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "もりののろい",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "もろはのずつき",
+    "type": "いわ",
+    "power": "150",
+    "accuracy": "80",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "やきつくす",
+    "type": "ほのお",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "やつあたり",
+    "type": "ノーマル",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "やどりぎのタネ",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "やまあらし",
+    "type": "かくとう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ゆうわく",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ゆきげしき",
+    "type": "こおり",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ゆきなだれ",
+    "type": "こおり",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "-4",
+    "isUse": ""
+  },
+  {
+    "name": "ゆびをふる",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ゆめくい",
+    "type": "エスパー",
+    "power": "100",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ようかいえき",
+    "type": "どく",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ようせいのかぜ",
+    "type": "フェアリー",
+    "power": "40",
+    "accuracy": "100",
+    "pp": "30",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ヨガのポーズ",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "よこどり",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+4",
+    "isUse": "×"
+  },
+  {
+    "name": "らいげき",
+    "type": "でんき",
+    "power": "130",
+    "accuracy": "85",
+    "pp": "5",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ライジングボルト",
+    "type": "でんき",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "らいめいげり",
+    "type": "かくとう",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ラスターカノン",
+    "type": "はがね",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ラスターパージ",
+    "type": "エスパー",
+    "power": "70",
+    "accuracy": "100",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "リーフストーム",
+    "type": "くさ",
+    "power": "130",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "リーフブレード",
+    "type": "くさ",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "リサイクル",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "リフレクター",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "リフレッシュ",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "リベンジ",
+    "type": "かくとう",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "-4",
+    "isUse": "×"
+  },
+  {
+    "name": "りゅうせいぐん",
+    "type": "ドラゴン",
+    "power": "130",
+    "accuracy": "90",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "りゅうのいかり",
+    "type": "ドラゴン",
+    "power": "1",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "りゅうのいぶき",
+    "type": "ドラゴン",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "りゅうのはどう",
+    "type": "ドラゴン",
+    "power": "85",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "りゅうのまい",
+    "type": "ドラゴン",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "りんごさん",
+    "type": "くさ",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "りんしょう",
+    "type": "ノーマル",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ルミナコリジョン",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "レイジングブル",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "れいとうパンチ",
+    "type": "こおり",
+    "power": "75",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "れいとうビーム",
+    "type": "こおり",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "れんごく",
+    "type": "ほのお",
+    "power": "100",
+    "accuracy": "50",
+    "pp": "5",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "れんぞくぎり",
+    "type": "むし",
+    "power": "40",
+    "accuracy": "95",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "れんぞくパンチ",
+    "type": "ノーマル",
+    "power": "18",
+    "accuracy": "85",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ローキック",
+    "type": "かくとう",
+    "power": "65",
+    "accuracy": "100",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ロケットずつき",
+    "type": "ノーマル",
+    "power": "130",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ロックオン",
+    "type": "ノーマル",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "5",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ロックカット",
+    "type": "いわ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ロッククライム",
+    "type": "ノーマル",
+    "power": "90",
+    "accuracy": "85",
+    "pp": "20",
+    "species": "物理",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ロックブラスト",
+    "type": "いわ",
+    "power": "25",
+    "accuracy": "90",
+    "pp": "10",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ワイドガード",
+    "type": "いわ",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "+3",
+    "isUse": ""
+  },
+  {
+    "name": "ワイドフォース",
+    "type": "エスパー",
+    "power": "80",
+    "accuracy": "100",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ワイドブレイカー",
+    "type": "ドラゴン",
+    "power": "60",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ワイルドボルト",
+    "type": "でんき",
+    "power": "90",
+    "accuracy": "100",
+    "pp": "15",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "わたほうし",
+    "type": "くさ",
+    "power": "0",
+    "accuracy": "100",
+    "pp": "40",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "わるあがき",
+    "type": "ノーマル",
+    "power": "50",
+    "accuracy": "0",
+    "pp": "1",
+    "species": "物理",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "わるだくみ",
+    "type": "あく",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "20",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  },
+  {
+    "name": "ワンダースチーム",
+    "type": "フェアリー",
+    "power": "90",
+    "accuracy": "95",
+    "pp": "10",
+    "species": "特殊",
+    "priority": "0",
+    "isUse": "×"
+  },
+  {
+    "name": "ワンダールーム",
+    "type": "エスパー",
+    "power": "0",
+    "accuracy": "0",
+    "pp": "10",
+    "species": "変化",
+    "priority": "0",
+    "isUse": ""
+  }
+]
