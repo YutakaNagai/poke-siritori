@@ -9,4 +9,4 @@
 ### スクレイピングとjson作成
 
 ルートディレクトリで下記を実行
-`$ python src/tools/scrapingTable.py; node src/tools/formatCsv.js;`
+`$ npm run update`
