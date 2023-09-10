@@ -190,7 +190,7 @@ const updateConfig = () => {
   top: 0;
   right: 0;
   z-index: 1;
-  width: 60vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -215,7 +215,7 @@ const updateConfig = () => {
 /* アニメーション前のメニューの状態 */
 .menu {
   transform: translateX(100vw);
-  transition: all 0.5s linear;
+  transition: all 0.3s linear;
 }
 /* アニメーション後のメニューの状態 */
 .menu.is-active {
