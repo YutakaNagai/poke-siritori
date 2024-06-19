@@ -9,6 +9,7 @@ import {
   YOUON_CHAR_SET,
 } from "./util/const";
 import Settings from "./components/Settings.vue";
+import Footer from "./components/Footer.vue";
 
 // リアクティブな状態
 const inputMsg = ref("");
@@ -366,6 +367,10 @@ const createConfig = (newConfig) => {
       <span v-if="index > 0">→ </span>{{ msg }}
     </div>
   </div>
+
+  <hr />
+
+  <Footer />
 </template>
 
 <style scoped>
